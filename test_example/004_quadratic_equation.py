@@ -165,13 +165,13 @@ else:
 # 求二次方程的根
 from cmath import sqrt
 
-a = int(input('please input the number a： '))
-b = int(input('please input the number b： '))
-c = int(input('please input the number c： '))
+a = int(input('please input the test_number a： '))
+b = int(input('please input the test_number b： '))
+c = int(input('please input the test_number c： '))
 d = (b ** 2) - 4 * a * c
 # 方法一：if判别语句
 if a == 0:
-    print('the number a can not be zero!')
+    print('the test_number a can not be zero!')
 else:
     x1 = (-b + sqrt(d)) / (2 * a)
     x2 = (-b - sqrt(d)) / (2 * a)
@@ -183,7 +183,7 @@ try:
     x2 = (-b - sqrt(d)) / (2 * a)
     print('the values of x1 and x2 are {:.3f} and {:.3f}'.format(x1, x2))
 except ZeroDivisionError:
-    print('the number a can not be zero!')
+    print('the test_number a can not be zero!')
 
 
 

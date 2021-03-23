@@ -124,8 +124,8 @@ def printfablist(n):
 
 
 # 运行实例：
-# >>>printfablist(int(input('please input a number:')))
-# please input a number:10
+# >>>printfablist(int(input('please input a test_number:')))
+# please input a test_number:10
 # 0 1 1 2 3 5 8 13 21 34
 
 

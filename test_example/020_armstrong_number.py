@@ -132,7 +132,7 @@ for num in range(lower, upper + 1):
 # 笔记
 # 参考方法：
 # 获取小于指定数字的阿姆斯特朗数
-num = int(input("pleace input a number: "))
+num = int(input("pleace input a test_number: "))
 sum = 0
 i = 0
 arr = [0, 0, 0, 0, 0]
@@ -178,8 +178,8 @@ elif p != x1:
 
 
 # 获取指定期间内的阿姆斯特朗数
-lower = int(input("Please input a number: "))
-upper = int(input("Please input a number: "))
+lower = int(input("Please input a test_number: "))
+upper = int(input("Please input a test_number: "))
 sum = 0
 for num in range(lower, upper):
     l = len(str(num))

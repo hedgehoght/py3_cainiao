@@ -44,7 +44,7 @@ while True:
 
 # 简洁就是美丽。
 num = eval(input('Number:\n'))
-print('{} is '.format(num) + ('even number.' if num % 2 == 0 else 'odd number.'))
+print('{} is '.format(num) + ('even test_number.' if num % 2 == 0 else 'odd test_number.'))
 
 
 
